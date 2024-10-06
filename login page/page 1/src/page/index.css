@@ -1,0 +1,346 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 2584px;
+  margin: 0 auto;
+}
+.email {
+  position: absolute;
+  width: 1440px;
+  height: 2584px;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  border: 1px solid #000000;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 18px;
+}
+.data-science-business {
+  position: relative;
+  width: 1400px;
+  height: 744px;
+  margin: 22px 0 0 20px;
+  background: url(../assets/images/230a14b8-958a-4fab-9cc8-c4dfca83f12a.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+  border-radius: 18px;
+}
+.dear-interns-name-welcome {
+  position: absolute;
+  width: 1279px;
+  height: 911px;
+  top: 961px;
+  left: 79px;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 36.307px;
+  text-align: justified;
+  z-index: 23;
+}
+.dear-interns-name {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  text-align: justified;
+}
+.welcome-to-t {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.307px;
+  text-align: justified;
+}
+.group-button {
+  position: absolute;
+  width: 208px;
+  height: 84px;
+  top: 1815px;
+  left: 50%;
+  cursor: pointer;
+  font-size: 0px;
+  background: transparent;
+  border: none;
+  transform: translate(-50.48%, 0);
+  z-index: 8;
+  border-radius: 121px;
+}
+.join-group-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 121px;
+  height: 30px;
+  margin: 26px 0 0 48px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 10;
+}
+.rectangle-div {
+  position: absolute;
+  width: 208px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  background: url(../assets/images/c52554e5-f2e3-4f14-81f6-61c9f451c232.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 9;
+  border-radius: 121px;
+}
+.rectangle-div-1 {
+  position: absolute;
+  width: 1440px;
+  height: 537px;
+  top: 2046px;
+  left: -1px;
+  background: url(../assets/images/3e5ffac1-9568-45a0-8bef-e510204c77b7.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 3;
+}
+.group-div {
+  position: absolute;
+  width: 355px;
+  height: 159px;
+  top: 2166px;
+  left: 1056px;
+  font-size: 0px;
+  z-index: 4;
+}
+.dataflix-span {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 230.598px;
+  height: 77.292px;
+  margin: 0 0 0 0;
+  color: #0d9696;
+  font-family: Inter, var(--default-font-family);
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 70.193px;
+  text-align: justified;
+  white-space: nowrap;
+  z-index: 7;
+}
+.ltd-pvt-1998 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 191.154px;
+  height: 37.542px;
+  margin: 0px 0 0 0;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 33.886px;
+  text-align: justified;
+  white-space: nowrap;
+  z-index: 5;
+}
+.sector-noida-up {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 355px;
+  height: 37.542px;
+  margin: 6.625px 0 0 0;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.045px;
+  text-align: justified;
+  white-space: nowrap;
+  z-index: 6;
+}
+.group {
+  position: absolute;
+  width: 504px;
+  height: 199px;
+  top: 2185px;
+  left: 69px;
+  z-index: 11;
+}
+.group-2 {
+  position: relative;
+  width: 463px;
+  height: 145px;
+  margin: 0 0 0 0;
+  z-index: 12;
+}
+.group-3 {
+  position: absolute;
+  width: 463px;
+  height: 145px;
+  top: 0;
+  left: 0;
+  z-index: 13;
+}
+.group-4 {
+  position: absolute;
+  width: 463px;
+  height: 145px;
+  top: 0;
+  left: 0;
+  z-index: 14;
+}
+.group-5 {
+  position: absolute;
+  width: 145px;
+  height: 145px;
+  top: 0;
+  left: 0;
+  background: url(../assets/images/2689b01b-1910-40b1-a683-7043ff8fd1cc.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 15;
+}
+.flex-column-dc {
+  position: absolute;
+  width: 291px;
+  height: 91px;
+  top: 31px;
+  left: 172px;
+  font-size: 0px;
+  z-index: 17;
+}
+.aman-mahajan {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 212px;
+  height: 30px;
+  margin: 0 0 0 0;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: justified;
+  white-space: nowrap;
+  z-index: 17;
+}
+.team-lead-data-science {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 291px;
+  height: 60px;
+  margin: 1px 0 0 0;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 30.256px;
+  text-align: justified;
+  z-index: 16;
+}
+.flex-row-bcf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 334px;
+  height: 61px;
+  margin: -7px 0 0 170px;
+  z-index: 22;
+}
+.hd-vector-blue {
+  flex-shrink: 0;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  background: no-repeat center;
+  background-size: cover;
+  border: none;
+  z-index: 22;
+  border-radius: 232px;
+}
+.frame-6 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 12px;
+  position: relative;
+  width: 257px;
+  height: 61px;
+  padding: 0 2px 0 2px;
+  z-index: 18;
+}
+.homeschool-organizing {
+  flex-shrink: 0;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(../assets/images/4d854f236a559f9a41445c1259126d44adcb9746.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 19;
+  border-radius: 199px;
+}
+.learn-english {
+  flex-shrink: 0;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  background: no-repeat center;
+  background-size: cover;
+  border: none;
+  z-index: 20;
+  border-radius: 256px;
+}
+.twitter {
+  flex-shrink: 0;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(../assets/images/fb973ed96f5fe8bf7dd04a35fcc608f0d96e6187.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 21;
+  border-radius: 368px;
+}
